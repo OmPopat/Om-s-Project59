@@ -41,38 +41,44 @@ p {
 }
 .parallax-inner { 
     display: table-cell;
-     position: relative;
-      text-align: center;
-       vertical-align: middle;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 300px;
+    z-index: 10;
+    cursor: pointer;
      }
-
-     .menu {
-         list-style: none;
-         font-family: fantasy;
-         position: absolute;
-         top: 10px;
-         right: 300px;
-         z-index: 10;
-         cursor: pointer;
-     }
-     .links {
-         float: left;
-         color: coral;
-         padding-top: 8px;
-         padding-left: 8px;
-         padding-right: 8px;
-         padding-left: 8px;
-         font-family: fantasy;
-         font-size: 20px;
-     }
-     .links:hover{
-         background-color: rgb(37, 110, 247);
-     }
-     #name {
-         font-size: 20px;
-         font-family: "Cinzel Decorative";
-         line-height: 1.5;
-     }
-     #videos {
-         text-align: center;
-     }
+.links {
+    float: left;
+    color: coral;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: rgb(37, 110, 247);
+}
+#name {
+    font-size: 20px;
+    font-family: "Cinzel Decorative";
+    line-height: 1.5;
+}
+#videos {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    }
+#address {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
